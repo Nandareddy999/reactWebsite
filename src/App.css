@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+}
+
+body{
+   background-color: rgb(30, 28, 28);
+}
+
+@media only screen and (max-width: 713px){
+
+.banner{
+  width:100vw;
+  
+
+}
+.bannercontents{
+  width:100vw;
+
+}
+
+.bannercontents > h1{
+  font-size: 18px;
+  width: 80vw !important;
+  /* background-color: antiquewhite; */
+}
+
+.row_poster{
+ 
+  height: 180px!important;
+}
+.landingpagecontent_input{
+  width:80vw;
+}
+.landingpagecontent_subtitle, .landingpagecontent_title {
+  font-size: 2vh!important;
+}
+.landingpagecontent_description{
+  font-size: 2.8vw!important;
+  /* font-weight: 300!important; */
+}
+.landingpagecontent_input{
+  width:100%!important;
+/* background-color: aqua;
+ */
+ display: flex!important;
+ justify-content: center!important;
+ align-items: flex-start!important;
+
+
+}
+.landingpagecontent_input > input{
+  width:40vw!important;
+  /* height:2.5vh!important; */
+}
+.landingpagecontent_input > button {
+  width:30vw!important;
+text-align: center;
+font-size: 2.3vw;
+/* height:4vh!important; */
+
+}
+.userhello{
+  /* font-size:2vw!important; */
+  /* background-color: aqua!important; */
+}
+
+}

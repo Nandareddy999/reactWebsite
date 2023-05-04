@@ -1,0 +1,11 @@
+.Rows{
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.5s;
+}
+.Rows > Row:hover{
+    transform: scale(1.2);
+}
+.Rows > Row.title {
+    cursor: pointer;
+}
