@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./container/LandingPage/LandingPage";
 import SignIn from "./container/SignIn/SignIn";
 import  Rating  from "./components/Rating/Rating";
+import GetData from "./components/getData/GetData";
 import HomePage from "./container/HomePage/HomePage";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -26,6 +27,9 @@ function App() {
 
           <Route 
             path="/Rating" element={<Rating/>}
+          />
+          <Route 
+          path="/GetData" element={<GetData/>}
           />
          
         </Routes>

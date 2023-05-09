@@ -23,7 +23,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     width: "100%",
     playerVars: {
       autoplay: 1,
-      controls: 0,
         autohide: 1,
         wmode: 'opaque',
         origin: 'http://localhost:3000'
