@@ -1,0 +1,11 @@
+1. Landing Page
+    => Navbar Section
+        -> Logo (left)
+        -> Button (Right)
+    
+    => Body
+        -> Title
+        -> Subtitle
+        -> Description
+        -> Input Field with Button
+    
